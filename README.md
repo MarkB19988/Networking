@@ -12,8 +12,10 @@ P2P networks are relativly basic compared to other network configurations and as
 
 However P2P networks arn't without their flaws. The computers must be manually maintained and kept up to date, there is no central server to ensure this is the case. Ever computer must keep antivirus software up to date and this can only be done manually. If a virus was to infect a machine on a P2P network, it could spell disaster for every single machine on that network as the virus would have free access to every machine that is connected.
 
-##### Client-Server TASK!
-Client network is a model that involves a client and a server, where the client requests a service from the server. The request that the client makes is to connect to a website over a local area network, to which a secure connection to the server. The connection is then terminated once the server has fulfilled the client’s request. Internet browsers are basically a client program that when clicked on a link to a web page, has actually requested a service from the server.
+##### Client-Server 
+Client-Server is a network configuratiuon that includes both a client and a server, This is one of the most common network configurations there is. In a Client-Server network client makes a request for date or a service from the server. For example the request could be for the clients browser to get data from a webserver because the client wants to access a website stored on that server. The server would validate the request and reply to the client with the requested websites data, then would terminate the connection.
+
+----------------------
 
 All resources and data are controlled by the server so that a program or an unauthorized client can’t damage the system, which better facilitates the task of uploading data and other such resources. Also noting that because of the centralization, backups and security is handled by the server, without the user having to do it themselves. Roles can be distributed to several computers and that servers can be replaced or fixed without any of the users being interrupted.
 
