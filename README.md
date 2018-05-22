@@ -15,9 +15,9 @@ However P2P networks arn't without their flaws. The computers must be manually m
 ##### Client-Server 
 Client-Server is a network configuratiuon that includes both a client and a server, This is one of the most common network configurations there is. In a Client-Server network client makes a request for date or a service from the server. For example the request could be for the clients browser to get data from a webserver because the client wants to access a website stored on that server. The server would validate the request and reply to the client with the requested websites data, then would terminate the connection.
 
-----------------------
+In a Client-Server configuration all data and setting and held within the server machine, meaning that any client computer that was not authorized would not be able to access the data stored on the server machine. This can be better when storing data from multiple users as everyones data can be easily separated with each client only having access to their specific data. Furthermore, back-ups are also created and handled by the server machine meaning that the client would not have to worry about backing up the data they store on the server themselves.
 
-All resources and data are controlled by the server so that a program or an unauthorized client can’t damage the system, which better facilitates the task of uploading data and other such resources. Also noting that because of the centralization, backups and security is handled by the server, without the user having to do it themselves. Roles can be distributed to several computers and that servers can be replaced or fixed without any of the users being interrupted.
+----------------------
 
 There can be some drawbacks to this network model; the server, for one, is expensive to purchase and install, along with requiring professional IT specialists to handle the maintenance and technical details of the network. Unlike the P2P server, congestion may be likely to happen if the server takes in too many requests, leading to overload of servers.
 
