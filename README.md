@@ -19,25 +19,26 @@ In a Client-Server configuration all data and setting and held within the server
 
 Howeer this server configuration like any other does have its down side. The biggest flaw is that a server machine can be expensive to buy and to maintain, and experienced personell are usually requried to keep the server running.
 
-----------------------
-
 ##### Cloud
 
-Cloud networking is a network configuration that connects 2 or more sub networkds via a Cloud networking uses cloud computing, where centralized computing resources are shared amongst clients, but the network is also shared as well. It works the same way as standard networking but it’s component, devices and operations are all in the cloud.
+Cloud networking is a network configuration that connects 2 or more sub networkds via a wide are network. cloud networking can be used in many ways, such as sharing computing resources over a great distance. for example you can use the power of many computers over a cloud network to form a kind of super computer for complex math calculations.
 
-The main benefit of cloud computing is that you can connect anywhere at any time regardless of device or place. A user can connect via a router that goes directly to the cloud server, so the user is not bound to a room. Cloud networking shares its characteristics with cloud computing, meaning that the benefits of cloud computing are also present with networking. For instance, you can access, edit and share documents at any time with people who are also connected to the network, allowing for good teamwork workflow without having to be in the same office.
+The main appeal of cloud computing is that anyone, anywhere, can connect to a cloud network. This means that, for example, people working on a project together can all contribute to that project from separate locations. Cloud networking is not the same as cloud computing, however the two are closely related and do share alot of the same features, benifits and drawbacks.
 
-Cluster
-A computer cluster consists of a single unit made up of multiple computers linked through a LAN and the joint computers act as if they were a single powerful machine. They have a node set to each cluster to perform the same task, so that they can perform that task at a faster rate with a higher joint processing speed.
+##### Cluster
 
-The obvious benefit that Cluster networking offers is the processing speed, where the computers working together provide unified processing, producing the fastest amount overall. If a single component in the cluster fails, other computers can continue to provide the processing, backing up the failed component. The computer cluster is made up of different LAN topologies and these networks create a highly efficient and effective mainframe that prevents any bottlenecking.
+A cluster is a group of computers that are connected together to form a LAN, however unlike a normal network, all of the machines combine their computing power to form a single machine. The most obvious advantage to this is that it increases the complexity of the task that can be assigned to the machines, the more machines you connect, the more complex the task the cluster can complete. Also, if one machine on the network fails or shuts down, the cluster will continue to function, but at a reduced performance.
 
-Centralized
+----------------------
+
+##### Centralized
+
 Centralized networking is a form of networking where users connect to a central server and this server manages all of the computing resources, administration and user management. The server in turn delivers application logic, processing and the computer resources to the connected users. Each machine involved in this network generally are considered “thin clients”, computers with a display, basic input devices and a thin CPU with networking capabilities, so the main server provides the client with computing resources and other high-end faciliites.
 
 In regards to the benefits of this type of networking, it helps in reducing cost as the main server mainly has the high-end output; it doesn’t emphasize on hardware and the client PCs, so any thin client can be used with it.
 
-Virtualised
+##### Virtualised
+
 A virtualized network is a method of combining the available network resources by splitting up the bandwidth into channels. Each channel is independent from the others and can be assigned to a server or device in real time. All users have access to the resources from the network from one computer.
 
 A virtualized network is virtual; nothing physical is used with this type of networking and makes it more cost effective, with no need to utilize and maintain, physical switches, routers or servers. In case of a failure or a disaster, the virtualized network gets applications and systems up faster and even such outages can be prevented.
