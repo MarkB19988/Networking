@@ -152,25 +152,25 @@ A multilayer switch is a similar to a switch howevwer it operates much more effi
 ###### Firewall
 A firewall is a piece of software or hardware that determines what data can access a network by opening and closing different ports.
 
--------
-
 ###### HIDS
-Also known as a Host-Based Intrusion Detection System, is system used for overseeing a computer system in order to detect an intrusion. It analyses the traffic between the computer on which it is installed and reports any malicious packets that are entering or exiting the network.
+HIDS stands for host-based intrusion detection system, it is used to detect a threat to a network or a computer. It searches through the data being sent through the network and looks for abnormalities that could be a threat.
 
 ###### Repeaters
-A repeater is a device within a network used for regeneration or replication of signals that are weakened from any electromagnetic interference. It can relay messages between subnetworks using different protocols and cables, as well as can extend the LAN beyond its limits. Hubs can also be used as repeaters by relaying messages to computers connected within the same network.
+Repeaters are devices that are used to strengthen a signal that is being sent over a large distance on a physical LAN, this allows the size of LANs to be much larger than if repeaters were not used.
 
 ###### Bridges
-A network bridge provides interconnection with other bridge networks that use the same protocol. They are mainly used in LANs because of their tendency to block up a large network because of their ability to transmit the data to all the nodes within the network should they not know the destination node’s address. It uses a database to determine where the data frame can pass, transmit or be discarded.
+A bridge is used to get a connection with other networks that use a bridge. The only constraint is that they have to use the same protocols. This is because a bridge uses and internal database to determine what traffic is allowed in and out of the network. If these do not match it can cause connection issues.
 
 ###### Access Point
-An access point is a station that allows for the connection of wireless devices and wired networks to connect via a wireless standard. For instance, Wi-Fi or Bluetooth is used to connect to a tablet computer. It can provide connectivity to anyone in the network anywhere and remain connected to that network.
+Access points are used to provide users with a connection to a network while they are physically not connected to that network. Wireless access points are the most common, they use Wi-Fi to allow the user(s) to connect to the network remotely.
 
 ###### Content Filter
-Content Filtering in a network uses a program to prevent and exclude any data that is considered spam or is deemed objectional. It’s mainly used for security purposes by preventing network users from connecting to malicious websites that have malware or used to commit fraud, by blocking the file uploads to the internet.
+A content filter is a simple concept. It uses a pre determines set of rules that it can compare any incomming data to. This check is used to determine if data is for example spam, or malicious. Email servers commonly use content filters to filter spam emails.
 
 ###### Load Balancer
-A load balancer is software that can distribute incoming network traffic across ‘server pools’, which are backend servers. It maximizes speed and efficiency by routing the traffic requests across servers to ensure that none are overloaded. Once a new server is added, the balancer sends requests to it automatically.
+A load balancer is used to spread out the workload over the entire network, by doing this the load balancer is able to prevent certain pathways and connections on a network becoming to busy and effect the speed of the network.
+
+-------
 
 ###### Modem
 A modem is a device used for transmission of data over a cable or telephone connection. The modem is so called because it modulates or demodulates analogue signal simultaneously to digital signal for a computer to recognize and vice versa for other devices.
