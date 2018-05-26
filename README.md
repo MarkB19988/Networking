@@ -74,18 +74,21 @@ Physical - The last layer is the one that is responsible for the physical links 
 
 #### Standards and Protocols
 
-IEEE Standards
-IEEE 802.3
-IEEE 802.3 is the standard for Ethernet. The standard specifies the physical media and the working characteristics of the Ethernet. The standard also specifies the media that supports the standard, which are coaxial of both 185 and 500 meters, optic fibre, twisted pair telephone and multi-channel coaxial with a maximum length of 3,600. As only the Ethernet signals are carried on the medium, the Ethernet is designated ‘BASE’, meaning Baseband Signalling and designated 10BASE as the standard refers to the transmission speed of 10 Mbps.
+##### IEEE Standards
 
-IEEE 802.7
-IEEE 802.7 identifies recommended broadband LAN practices. What is specified with the standard is the design, installation and the test parameters for the broadband cable technologies within the network.
+###### IEEE 802.3
+IEEE 802.3 refers to the standart of Ethernet connections. This type of physical connection is most often used for LAN connections however can have its place in WAN set-ups. The communication standards for ethernet connections and cables are updated regularly adding aditional features however 802.3 was the first IEEE standard to be implemented. The description of this standard stated that these connections must be at speeds of 10Mbits/s which is equal to 1.25MB/s.
 
-IEEE 802.8
-IEEE 802.8 is a standard for fibre optic in a LAN that is used in token passing computer networks. It was devised by the Fiber Optic Technical Advisory Group and essentially gives the recommendation for configuration and testing of fibre optic Local and Metropolitan Area Networks.
+###### IEEE 802.7
+IEEE 802.7 is the standards assigned to broadband connections, what is outlined here is thes design and implementation of the connection. It also outlines some methods of testing the connections that should also be followed.
 
-IEEE 802.11
-IEEE 802.11 is a set of standards defining communication in wireless LANs, mainly a set of guidelines for implementing Wi-Fi. The standard is made up of numerous amendments, these being .11a, .11b, .11g and .11n which state the different frequency bands used.
+###### IEEE 802.8
+IEEE 802.8 refers to the standard of fibre optic connections. It is in the same group as the previous standards and outlines many of the same defining features however is called a standard by itself as it covers a different connection type.
+
+###### IEEE 802.11
+IEEE 802.11 refers to the standard of wireless conectivity. The most common connection to follow these standards by far is Wi-Fi, this standard outlines what frequencies are to be used via wireless access points and hubs.
+
+---------------------------
 
 Routed Protocols
 Routed Protocols is a protocol where data is routed from one network to another. These protocols use an addressing system that can address a particular network and host. There are different types of routed protocols, but the common being the IP address. The reason for IP being a more valued type of routed protocol is because of the fact that the rest is vanishing due to different issues.
