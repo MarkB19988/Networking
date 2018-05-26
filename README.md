@@ -37,6 +37,5 @@ Centralized networks are a type of network in which many pc's connect to a centr
 
 ##### Virtualised
 
-A virtualized network is a method of combining the available network resources by splitting up the bandwidth into channels. Each channel is independent from the others and can be assigned to a server or device in real time. All users have access to the resources from the network from one computer.
+A virtualized network is a network in which the resourses are split up by dividing the networks bandwidth into multiple segments called 'channels' All of the channels act separatly from one another and can be assigned to any device on the network at any time. The main advantage of of a virtual network is that you do not need to spend money of switches or routers as they are not involved in this type of network, all connections are virtual, not physical.
 
-A virtualized network is virtual; nothing physical is used with this type of networking and makes it more cost effective, with no need to utilize and maintain, physical switches, routers or servers. In case of a failure or a disaster, the virtualized network gets applications and systems up faster and even such outages can be prevented.
