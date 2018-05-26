@@ -42,7 +42,7 @@ A virtualized network is a network in which the resourses are split up by dividi
 ##### TCP/IP Model
 
 
-TCP/IP stands for Transmission Control Protocol/Internet Protocol, it is a combination of different protocols in order to connect devices over the internet. It is based on a client and server model and has a total of 4 different 'layers' each with their own responsibilities and tasks.
+TCP/IP stands for Transmission Control Protocol/Internet Protocol, it is a combination of different protocols that come together in order to connect devices over the internet. It has a total of 4 different 'layers' each with their own responsibilities and tasks.
 
 
 - Application - This layer is responsible for specifying which protocol is to be used by what application or data.
