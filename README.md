@@ -118,26 +118,20 @@ POP stands for Post Office Protocol. It is a protocol that changes how a user re
 #### The Impact of Networking Topology, Communication and Bandwidth
 
 ##### Topologies
-Logical Topologies are concepts, defining the architecture of the communication of the nodes in a network. The topology of a network can be dynamically maintained and reconfigured by routers and switches. The topology is mainly defining how the signals act on the network media or how data passes through the network to the devices.
+Topolgies are the rules by which different networks are designed. Each topology is designed to fill a different role and all have their strenghts and weaknesess. The term 'physical topology' details the design of LANs, using various different cables and connectors to create the layout of the network. Some examples of physical topologies are as follows:
 
-Ethernet is based on a type of logical topology known as the bus topology, which is a common logical solution defines the physical topologies, laying out the logics of the data travelling to all devices from one device in a network.
+- The star topology is the idea of all of the machines being connected to a single hub or switch at the center of the network, with the various connections comming out of this center hub or switch like a star.
 
-The physical topology refers to the actual structure of a LAN, utilising various networking cables to connect the physical devices on the network. It allows for organization of the network, by physically laying it out. It takes a lot of planning by determining the cable to be used and how they it runs through the building.
+- The mesh topology is the idea of multiple connections between different machines on the network allowing for different routes to be used if one becomes inoperable.
 
-Several types of physical topologies:
+- The bus topology is a simple design, all of the network components are connected in a line.
 
-The star physical topology is a physical network that has the nodes connected to a centralized point, which can be a hub or switch.
-A mesh network is much different, where the various parts can connect via multiple hops and can allow for rerouting on a different path if the current one is broken.
-A bus topology is a lenient network, with the nodes all in a straight line and are terminated on both ends.
-A ring network is where the nodes create a circular path, each device joined to two others and the data packets travel around these nodes until it reaches its destination.
-The main difference of physical and logical topologies is that logical is a visual representation of the network, showcasing how it could work, whereas the physical topology is actually physical; joined together with cables and switches.
+- The ring topology is the idea of all of the components of the network being aranged into a circle formation. ~Each unit is connected to the two units next to it.
 
-Communication
-Communication is the transmission of data from either a computer or a device to another over a computer network, where said network is considered a telecommunications network that allows for the transmission of data. Essentially most common processes when browsing the internet has data transmission happening between the user and the server, such as retrieving a file from the internet or sending off an email, so with internet use, data is being communicated between servers, routers and other clients each time. However, to use the internet, the user would have to connect to the internet. A device is used to connect to a network, being a modem or router, which communicates with the internet; requesting permission to have the user join, to which data is sent back enabling the connection.
+##### Communication
+Communication is the process of two or more machines sending and recieving data from one another via a network. The most common form of communication between computers is the act of requesting data from a server. This can range frome requesting web data from a web server to requesting access to your emails from an email server. While connected to the internet, data is being sent to and from your device at all times. In a network it is the router that directs web traffic and data to where it needs to go. Because data is always being send or recieved, there is a constant risk of an attack being launched while the data is in transit or sent with the data itself. For this reason, security measures like firewall are used on most machines connected to the internet in order to help keep the user safe and secure by blocking certain types of data by closing different ports not in use. Due to these security measures, the speed of data transfer can often be reduced as it takes time to carry out these security checks. In some cases the data may not reach its intended recipient at all as the security features and falsly flagged the data as a threat. While this situation is rare it can happen.
 
-Data is being communicated each time, but the data flow is also prone to attacks and malicious attempts to gain information from other users. Security measures such as firewalls within a network that can limit down the communications rate and to ensure that no malicious attacks can happen. With security measures, no malicious data can travel to unsuspecting users or end up within the network.
 
-Within a network model, the communication of data happens within layers. The TCP/IP has an applications layer that allows for services to be requested from the user to the application, meaning that data is ready to be sent, but namely focuses in the transport and internet layer, where the transport handles the communication between the hosts and for successful delivery and the internet layer sends the data across to the correct host. These layers aid the communication of data successfully by monitoring the data transfer and communicating with the right host. All communication channels within any networking model have limited frequency bandwidth, which are down to the properties of the channel or for more practical reasons, such as to prevent any interference from other sources. Because of this, bandwidth cannot be maximized to its full potential and can cause problems, with the most obvious being that any low bandwidth can reduce speed in both browsing the internet and downloading files, making the bandwidth speed a huge bottleneck.
 
 
 
