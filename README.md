@@ -56,19 +56,19 @@ TCP/IP stands for Transmission Control Protocol/Internet Protocol, it is a combi
 
 ##### OSI Model
 
-Application - This layer is similar to the TCP/IP model layer of the same name, it is the layer in which different protocols are assigned to different types of data.
+- Application - This layer is similar to the TCP/IP model layer of the same name, it is the layer in which different protocols are assigned to different types of data.
 
-Presentation - This layer is where data is compressed or encrypted. It also makes the data easier to interperate and determine the type of data it is and send it correctly.
+- Presentation - This layer is where data is compressed or encrypted. It also makes the data easier to interperate and determine the type of data it is and send it correctly.
 
-Session - This layer is responible for creating connections between different applications. Depending on the application and its requirements, either TCP or UDP is used, similarly to the transport layer of the TCP/IP model.
+- Session - This layer is responible for creating connections between different applications. Depending on the application and its requirements, either TCP or UDP is used, similarly to the transport layer of the TCP/IP model.
 
-Transport - This layer is one part of the model that is responsible for the transmision of the data. It is also the layer in which error checks are carried out on the data being sent or recieved.
+- Transport - This layer is one part of the model that is responsible for the transmision of the data. It is also the layer in which error checks are carried out on the data being sent or recieved.
 
-Network - This layer is the second layer that is directly involved in the sending of data, it is the layer in which the desination address and routing are taken into consideration and the appropriate information is applied to the data being sent. It also validates the address of data being recieved.
+- Network - This layer is the second layer that is directly involved in the sending of data, it is the layer in which the desination address and routing are taken into consideration and the appropriate information is applied to the data being sent. It also validates the address of data being recieved.
 
-Data Link - This layer is responsible for encrypting the data before it is sent to the recipient, it is also the same layer in which recieved data is decrypted back into readable packets for the other layers to process
+- Data Link - This layer is responsible for encrypting the data before it is sent to the recipient, it is also the same layer in which recieved data is decrypted back into readable packets for the other layers to process
 
-Physical - The last layer is the one that is responsible for the physical links that send the data, via cables. Information can be conveyed via electrical pulses or even light pulses.
+- Physical - The last layer is the one that is responsible for the physical links that send the data, via cables. Information can be conveyed via electrical pulses or even light pulses.
 
 ---------------------------
 
@@ -90,12 +90,55 @@ IEEE 802.11 refers to the standard of wireless conectivity. The most common conn
 
 ---------------------------
 
-Routed Protocols
-Routed Protocols is a protocol where data is routed from one network to another. These protocols use an addressing system that can address a particular network and host. There are different types of routed protocols, but the common being the IP address. The reason for IP being a more valued type of routed protocol is because of the fact that the rest is vanishing due to different issues.
+#### Routed Protocols
 
-IPv4 has started running out of addresses due to the population of the world and the devices being manufactured, meaning that there is not enough IPv4 addresses. IPv6 is the newer solution where there is a considerable amount of addresses, with more than IPv4. Global Unicast is a routable address that can used in the internet, associated with a single node and can identify that node. The problem with this protocol is mainly unicast flood, where the data packet that is supposed to be sent off to a single destination is sent to all hosts as a broadcast packet, making this protocol a potential security risk.
+Routed Protocol is a blanket term that is used to describe the different protocols that govern how data is routed from one machine to another. However this term is not often used in practice because the only protocol left in this catagory is IPv4 and IPv6. Other protocols in this catagory encounterd issues at some point during their lifespan that they could not overcome. However this is not to say that IPv4 has not encounterd problems as it has. Its main problem was that it began to run out of addresses it could assign to machines. This is because so many machines were being built that the 4 Billion possible addresses that IPv4 has started to run out. To solve this issue, IPv6 was designed. The principles are the same as IPv4 however the number of possible addresses was drastically increased to over 340 undecillion (2^128).
 
-Link local is a computer address that is only effective for communications within the link or the broadcast domain where the host is connected. They are not unique beyond a single link and routers can’t forward the packets that have a link-local address. A Unique Local Address, or ULA, is an address that is used in IPv6. They are not meant to have data routed outside of their province and not allocated at all by an address registry.
+---------------------------
 
-Extended Unique Identifier, also known as EUI, assigns itself a unique 64-Bit IPv6 interface identifier, eliminating the need to manually configure the IP or use DHCP in IPv4 addresses. The problem that arises from using this however, is that privacy loss would be potential concern, with the MAC address of the router being revealed. Auto-configuration is a feature in the IPv6 protocol that allows devices to use the internet without requiring any DHCP support, making it good for applications to require a secure connection without the DHCP server. The problem is that it doesn’t get the configuration needed to be functional on the network, so it needs a DHCPv6 server to get the rest of the configuration.
+#### Services and Network Applications
+
+##### HTTP
+HTTP stands for Hyper Text Transfer Protocol and is used for the purposes of sending data about websites. HTTP covers everything to do with interperating what the user wants and recieving the data from the web server on what should be displayed on the webpage.
+
+##### FTP
+FTP stands for File Transfer Protocol. It is a standard internet protocol for sending and recieving files. FTP relies on a two way connection between a user and a FTP server. FTP allowed the user to upload, edit and dowload files from the server.
+
+##### SSL
+SSL stands for Secure Sockets Layer. It is designed to ensure that sesntitive data is sent securely by encrypting it. It is used when entering and sending data such as credit card information or finatial documentation such as tax forms.
+
+##### SMTP
+SMTP stands for Simple Mail Transfer Protocol, it is the protocol that is used to send and recieve emails. most modern email services use this protocol.
+
+##### POP3
+POP stands for Post Office Protocol. It is a protocol that changes how a user recieves emails. In the most recent version called POP3, the clients email is stored on a server which is then downloaded by the user. after which it can be deleted.
+
+---------------------------
+
+#### The Impact of Networking Topology, Communication and Bandwidth
+
+##### Topologies
+Logical Topologies are concepts, defining the architecture of the communication of the nodes in a network. The topology of a network can be dynamically maintained and reconfigured by routers and switches. The topology is mainly defining how the signals act on the network media or how data passes through the network to the devices.
+
+Ethernet is based on a type of logical topology known as the bus topology, which is a common logical solution defines the physical topologies, laying out the logics of the data travelling to all devices from one device in a network.
+
+The physical topology refers to the actual structure of a LAN, utilising various networking cables to connect the physical devices on the network. It allows for organization of the network, by physically laying it out. It takes a lot of planning by determining the cable to be used and how they it runs through the building.
+
+Several types of physical topologies:
+
+The star physical topology is a physical network that has the nodes connected to a centralized point, which can be a hub or switch.
+A mesh network is much different, where the various parts can connect via multiple hops and can allow for rerouting on a different path if the current one is broken.
+A bus topology is a lenient network, with the nodes all in a straight line and are terminated on both ends.
+A ring network is where the nodes create a circular path, each device joined to two others and the data packets travel around these nodes until it reaches its destination.
+The main difference of physical and logical topologies is that logical is a visual representation of the network, showcasing how it could work, whereas the physical topology is actually physical; joined together with cables and switches.
+
+Communication
+Communication is the transmission of data from either a computer or a device to another over a computer network, where said network is considered a telecommunications network that allows for the transmission of data. Essentially most common processes when browsing the internet has data transmission happening between the user and the server, such as retrieving a file from the internet or sending off an email, so with internet use, data is being communicated between servers, routers and other clients each time. However, to use the internet, the user would have to connect to the internet. A device is used to connect to a network, being a modem or router, which communicates with the internet; requesting permission to have the user join, to which data is sent back enabling the connection.
+
+Data is being communicated each time, but the data flow is also prone to attacks and malicious attempts to gain information from other users. Security measures such as firewalls within a network that can limit down the communications rate and to ensure that no malicious attacks can happen. With security measures, no malicious data can travel to unsuspecting users or end up within the network.
+
+Within a network model, the communication of data happens within layers. The TCP/IP has an applications layer that allows for services to be requested from the user to the application, meaning that data is ready to be sent, but namely focuses in the transport and internet layer, where the transport handles the communication between the hosts and for successful delivery and the internet layer sends the data across to the correct host. These layers aid the communication of data successfully by monitoring the data transfer and communicating with the right host. All communication channels within any networking model have limited frequency bandwidth, which are down to the properties of the channel or for more practical reasons, such as to prevent any interference from other sources. Because of this, bandwidth cannot be maximized to its full potential and can cause problems, with the most obvious being that any low bandwidth can reduce speed in both browsing the internet and downloading files, making the bandwidth speed a huge bottleneck.
+
+
+
 
