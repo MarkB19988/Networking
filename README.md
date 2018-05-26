@@ -129,7 +129,57 @@ Topolgies are the rules by which different networks are designed. Each topology 
 - The ring topology is the idea of all of the components of the network being aranged into a circle formation. ~Each unit is connected to the two units next to it.
 
 ##### Communication
-Communication is the process of two or more machines sending and recieving data from one another via a network. The most common form of communication between computers is the act of requesting data from a server. This can range frome requesting web data from a web server to requesting access to your emails from an email server. While connected to the internet, data is being sent to and from your device at all times. In a network it is the router that directs web traffic and data to where it needs to go. Because data is always being send or recieved, there is a constant risk of an attack being launched while the data is in transit or sent with the data itself. For this reason, security measures like firewall are used on most machines connected to the internet in order to help keep the user safe and secure by blocking certain types of data by closing different ports not in use. Due to these security measures, the speed of data transfer can often be reduced as it takes time to carry out these security checks. In some cases the data may not reach its intended recipient at all as the security features and falsly flagged the data as a threat. While this situation is rare it can happen.
+Communication is the process of two or more machines sending and recieving data from one another via a network. The most common form of communication between computers is the act of requesting data from a server. This can range frome requesting web data from a web server to requesting access to your emails from an email server. While connected to the internet, data is being sent to and from your device at all times. In a network it is the router that directs web traffic and data to where it needs to go. Because data is always being send or recieved, there is a constant risk of an attack being launched while the data is in transit or sent with the data itself. For this reason, security measures like firewall are used on most machines connected to the internet in order to help keep the user safe and secure by blocking certain types of data by closing different ports not in use. Due to these security measures, the speed of data transfer can often be reduced as it takes time to carry out these security checks. In some cases the data may not reach its intended recipient at all as the security features falsly flag the data as a threat. While this situation is rare it can happen.
+
+---------------------------
+
+#### Operating Principles
+
+##### Networking devices
+
+###### Hubs
+Hubs serve as a central connection point for a network, they manage and route traffic over the local connections. However the data is sent one piece at at time so all users don't get a copy, this slows down the system.
+
+###### Routers
+Routers are devices that connect multiple local networks. Packets of data that are sent to the router have an address attached to them, the router knows how to send the data to the address attached and computes the best route for the data to take.
+
+###### Switches
+A switch is similar to a hub in that it takes and routes data to the machines connected on a LAN. the differnce being that every machine connected to the switch recieves a copy. This can speed up the LAN but can have security implications.
+
+###### Multilayer Switch
+A multilayer switch is a similar to a switch howevwer it operates much more efficiently that a normal switch and therefore increases the speed of the data transfer. 
+
+###### Firewall
+A firewall is a piece of software or hardware that determines what data can access a network by opening and closing different ports.
+
+-------
+
+###### HIDS
+Also known as a Host-Based Intrusion Detection System, is system used for overseeing a computer system in order to detect an intrusion. It analyses the traffic between the computer on which it is installed and reports any malicious packets that are entering or exiting the network.
+
+###### Repeaters
+A repeater is a device within a network used for regeneration or replication of signals that are weakened from any electromagnetic interference. It can relay messages between subnetworks using different protocols and cables, as well as can extend the LAN beyond its limits. Hubs can also be used as repeaters by relaying messages to computers connected within the same network.
+
+###### Bridges
+A network bridge provides interconnection with other bridge networks that use the same protocol. They are mainly used in LANs because of their tendency to block up a large network because of their ability to transmit the data to all the nodes within the network should they not know the destination node’s address. It uses a database to determine where the data frame can pass, transmit or be discarded.
+
+###### Access Point
+An access point is a station that allows for the connection of wireless devices and wired networks to connect via a wireless standard. For instance, Wi-Fi or Bluetooth is used to connect to a tablet computer. It can provide connectivity to anyone in the network anywhere and remain connected to that network.
+
+###### Content Filter
+Content Filtering in a network uses a program to prevent and exclude any data that is considered spam or is deemed objectional. It’s mainly used for security purposes by preventing network users from connecting to malicious websites that have malware or used to commit fraud, by blocking the file uploads to the internet.
+
+###### Load Balancer
+A load balancer is software that can distribute incoming network traffic across ‘server pools’, which are backend servers. It maximizes speed and efficiency by routing the traffic requests across servers to ensure that none are overloaded. Once a new server is added, the balancer sends requests to it automatically.
+
+###### Modem
+A modem is a device used for transmission of data over a cable or telephone connection. The modem is so called because it modulates or demodulates analogue signal simultaneously to digital signal for a computer to recognize and vice versa for other devices.
+
+###### Packet Shaper
+Packet shaping or traffic shaping, regulates the data transfer to maintain a level of performance and quality. It delays the flow of packets that is considered as less important for more prioritized traffic, hence to allow for maintained performance within the network.
+
+###### VPN Concentrator
+A VPN concentrator is a network device that provides a secure connection and delivery of data between VPN nodes. It adds to the capabilities of a VPN, allowing for many people to access the VPN at the same time.
 
 
 
