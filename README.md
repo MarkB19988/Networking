@@ -41,23 +41,31 @@ A virtualized network is a network in which the resourses are split up by dividi
 
 ---------------------------
 
-The Transmission Control Protocol/Internet Protocol model, shortened to TCP/IP is made up of many communication protocol used to connect network devices on the internet and is used as a communications protocol within a private network.
+TCP/IP stands for Transmission Control Protocol/Internet Protocol, it is a combination of different protocols in order to connect devices over the internet. It is based on a client and server model and has a total of 4 different 'layers' each with their own responsibilities and tasks.
 
-It uses the client/server model of communication where a client is provided a service from another computer in the same network. The model is made up of different protocols and divided into four layers:
 
-Application - The application layer is responsible for providing network services to applications. High-level protocols are included within the application layer, such as Domain Naming System (DNS), Hypertext Transfer Protocol (HTTP), File Transfer Protocol (FTP), etc.
-Transport - This layer maintains the end-to-end communications within the network. The communications between the hosts are handled within this layer and flow control, multiplexing and reliability are maintained as well by the layer. Two protocols are used within this layer; TCP, for providing error control and successful delivery of the data, and UDP, though only used for less extensive control features.
-Internet - The internet layer, or network layer, packs the data into data packets and routes it to the correct device on the destination network. These packets then form the IP, containing the source and destination address used to transmit the IPs across networks.
-Network Access - The lowest layer is known as the Network Access Layer, that combines the data link and physical layers from the OSI model. It provides a means for the data to be delivered to other devices on a network and defines how the network should transmit an IP. This layer has to understand the details of the underlying network before it can format the data being transmitted.
+- Application - This layer is responsible for specifying which protocol is to be used by what application or data.
+
+- Transport - The Transport layer is responsible for creating and maintaining communication between the sender and the reciever. Only two protocols are used in this later. TCP which has a system in place to check if the recipient and recieved the data, and UDP which doenst check if the recipient has got the data.
+
+- Internet - This layer is responsible for segmenting any data sent into packets, these packets are then routed to the recipient using the recipients IP address.
+
+- Network Access - The Network Access layer is responsible for interfacing with your network’s architecture. It is also at this layer that error checking information is applied to sent data so the recipient can check for errors.
 
 
 ##### OSI Model
 
-Application - The application layer in the OSI model is a means for applications to receive network services, basically communicating the services to them such as file transfers and e-mail. Numerous protocols are used within this layer, such as Hypertext Transfer Protocol for web based languages transferred across the network and mail services by the SMPP protocol for email services.
-Presentation - The presentation layer is used for interpreting the data and transformed that the application layer can use it. Many file types are represented by the application and can be converted, encrypted, decrypted or compressed.
-Session - The session layer establishes connections between applications and can set up, coordinate and terminate the conversations that happens between them. The protocols used are Transmission Control Protocol (TCP) and User Datagram Protocol (UDP), commonly provided within most applications.
-Transport - This layer provides the transferal of data between hosts or end systems and is responsible for error recovery and flow control. TCP and USP protocols, used in the session layer, provide these services through the internet for most applications.
-Network - The network layer handles the addressing and routing of data, where it is sent in the correct direction, selecting the appropriate routes and forwarding the data to the transport layer. The protocols that map to the OSI network include the IP protocol from the TCP/IP model, both IPv4 and IPv6, as well as Interwork Packet Exchange (IPX).
-Data Link - The data link layer is responsible for encoding the data prior to the transmission and decoding the data back into the bits at the destination, mainly handling the data transfer out of a physical link. The layer divides itself into two sub-layers; Media Access Control, how the computer gains access to the data and the permission to transfer said data, and Logical Link Control, controlling the frame synchronization, flow control and error checking.
-Physical - The bottommost layer is the physical layer that conveys the bit stream across the network. This is done via electrical impulse, light or a radio signal. A variety of devices and mediums are covered, through cables, cards and other ports.
+Application - This layer is similar to the TCP/IP model layer of the same name, it is the layer in which different protocols are assigned to different types of data.
+
+Presentation - This layer is where data is compressed or encrypted. It also makes the data easier to interperate and determine the type of data it is and send it correctly.
+
+Session - This layer is responible for creating connections between different applications. Depending on the application and its requirements, either TCP or UDP is used, similarly to the transport layer of the TCP/IP model.
+
+Transport - This layer is one part of the model that is responsible for the transmision of the data. It is also the layer in which error checks are carried out on the data being sent or recieved.
+
+Network - This layer is the second layer that is directly involved in the sending of data, it is the layer in which the desination address and routing are taken into consideration and the appropriate information is applied to the data being sent. It also validates the address of data being recieved.
+
+Data Link - This layer is responsible for encrypting the data before it is sent to the recipient, it is also the same layer in which recieved data is decrypted back into readable packets for the other layers to process
+
+Physical - The last layer is the one that is responsible for the physical links that send the data, via cables. Information can be conveyed via electrical pulses or even light pulses.
 
