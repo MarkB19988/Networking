@@ -29,13 +29,11 @@ The main appeal of cloud computing is that anyone, anywhere, can connect to a cl
 
 A cluster is a group of computers that are connected together to form a LAN, however unlike a normal network, all of the machines combine their computing power to form a single machine. The most obvious advantage to this is that it increases the complexity of the task that can be assigned to the machines, the more machines you connect, the more complex the task the cluster can complete. Also, if one machine on the network fails or shuts down, the cluster will continue to function, but at a reduced performance.
 
-----------------------
-
 ##### Centralized
 
-Centralized networking is a form of networking where users connect to a central server and this server manages all of the computing resources, administration and user management. The server in turn delivers application logic, processing and the computer resources to the connected users. Each machine involved in this network generally are considered “thin clients”, computers with a display, basic input devices and a thin CPU with networking capabilities, so the main server provides the client with computing resources and other high-end faciliites.
+Centralized networks are a type of network in which many pc's connect to a central server that handles all of the processing power and storage on the network. All of the computers connected to the server are given processing power form the server itself. Computers that are connected to the network normally don't have much processing power on their own, just enought to connect to the network. The main benifit of this is that you can expand the network cheaply as the individual machines don't need much processing power.
 
-In regards to the benefits of this type of networking, it helps in reducing cost as the main server mainly has the high-end output; it doesn’t emphasize on hardware and the client PCs, so any thin client can be used with it.
+----------------------
 
 ##### Virtualised
 
