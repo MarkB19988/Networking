@@ -23,23 +23,24 @@ Cloud networking is a network configuration that connects 2 or more sub networkd
 
 The main appeal of cloud computing is that anyone, anywhere, can connect to a cloud network. This means that, for example, people working on a project together can all contribute to that project from separate locations. Cloud networking is not the same as cloud computing, however the two are closely related and do share alot of the same features, benifits and drawbacks.
 
-##### Cluster
-
-A cluster is a group of computers that are connected together to form a LAN, however unlike a normal network, all of the machines combine their computing power to form a single machine. The most obvious advantage to this is that it increases the complexity of the task that can be assigned to the machines, the more machines you connect, the more complex the task the cluster can complete. Also, if one machine on the network fails or shuts down, the cluster will continue to function, but at a reduced performance.
-
 ##### Centralized
 
 Centralized networks are a type of network in which many pc's connect to a central server that handles all of the processing power and storage on the network. All of the computers connected to the server are given processing power form the server itself. Computers that are connected to the network normally don't have much processing power on their own, just enought to connect to the network. The main benifit of this is that you can expand the network cheaply as the individual machines don't need much processing power.
+
+##### Cluster
+
+A cluster is a group of computers that are connected together to form a LAN, however unlike a normal network, all of the machines combine their computing power to form a single machine. The most obvious advantage to this is that it increases the complexity of the task that can be assigned to the machines, the more machines you connect, the more complex the task the cluster can complete. Also, if one machine on the network fails or shuts down, the cluster will continue to function, but at a reduced performance.
 
 ##### Virtualised
 
 A virtualized network is a network in which the resourses are split up by dividing the networks bandwidth into multiple segments called 'channels' All of the channels act separatly from one another and can be assigned to any device on the network at any time. The main advantage of of a virtual network is that you do not need to spend money of switches or routers as they are not involved in this type of network, all connections are virtual, not physical.
 
+---------------------------
+
 #### Conceptual Models
 
 ##### TCP/IP Model
 
----------------------------
 
 TCP/IP stands for Transmission Control Protocol/Internet Protocol, it is a combination of different protocols in order to connect devices over the internet. It is based on a client and server model and has a total of 4 different 'layers' each with their own responsibilities and tasks.
 
@@ -68,4 +69,30 @@ Network - This layer is the second layer that is directly involved in the sendin
 Data Link - This layer is responsible for encrypting the data before it is sent to the recipient, it is also the same layer in which recieved data is decrypted back into readable packets for the other layers to process
 
 Physical - The last layer is the one that is responsible for the physical links that send the data, via cables. Information can be conveyed via electrical pulses or even light pulses.
+
+---------------------------
+
+#### Standards and Protocols
+
+IEEE Standards
+IEEE 802.3
+IEEE 802.3 is the standard for Ethernet. The standard specifies the physical media and the working characteristics of the Ethernet. The standard also specifies the media that supports the standard, which are coaxial of both 185 and 500 meters, optic fibre, twisted pair telephone and multi-channel coaxial with a maximum length of 3,600. As only the Ethernet signals are carried on the medium, the Ethernet is designated ‘BASE’, meaning Baseband Signalling and designated 10BASE as the standard refers to the transmission speed of 10 Mbps.
+
+IEEE 802.7
+IEEE 802.7 identifies recommended broadband LAN practices. What is specified with the standard is the design, installation and the test parameters for the broadband cable technologies within the network.
+
+IEEE 802.8
+IEEE 802.8 is a standard for fibre optic in a LAN that is used in token passing computer networks. It was devised by the Fiber Optic Technical Advisory Group and essentially gives the recommendation for configuration and testing of fibre optic Local and Metropolitan Area Networks.
+
+IEEE 802.11
+IEEE 802.11 is a set of standards defining communication in wireless LANs, mainly a set of guidelines for implementing Wi-Fi. The standard is made up of numerous amendments, these being .11a, .11b, .11g and .11n which state the different frequency bands used.
+
+Routed Protocols
+Routed Protocols is a protocol where data is routed from one network to another. These protocols use an addressing system that can address a particular network and host. There are different types of routed protocols, but the common being the IP address. The reason for IP being a more valued type of routed protocol is because of the fact that the rest is vanishing due to different issues.
+
+IPv4 has started running out of addresses due to the population of the world and the devices being manufactured, meaning that there is not enough IPv4 addresses. IPv6 is the newer solution where there is a considerable amount of addresses, with more than IPv4. Global Unicast is a routable address that can used in the internet, associated with a single node and can identify that node. The problem with this protocol is mainly unicast flood, where the data packet that is supposed to be sent off to a single destination is sent to all hosts as a broadcast packet, making this protocol a potential security risk.
+
+Link local is a computer address that is only effective for communications within the link or the broadcast domain where the host is connected. They are not unique beyond a single link and routers can’t forward the packets that have a link-local address. A Unique Local Address, or ULA, is an address that is used in IPv6. They are not meant to have data routed outside of their province and not allocated at all by an address registry.
+
+Extended Unique Identifier, also known as EUI, assigns itself a unique 64-Bit IPv6 interface identifier, eliminating the need to manually configure the IP or use DHCP in IPv4 addresses. The problem that arises from using this however, is that privacy loss would be potential concern, with the MAC address of the router being revealed. Auto-configuration is a feature in the IPv6 protocol that allows devices to use the internet without requiring any DHCP support, making it good for applications to require a secure connection without the DHCP server. The problem is that it doesn’t get the configuration needed to be functional on the network, so it needs a DHCPv6 server to get the rest of the configuration.
 
