@@ -243,11 +243,11 @@ Structured cabling is the idea of using cables in the most efficient way possibl
 - Twisted pair cables are as the name suggests, two copper cables and intertwined within the same wire. This helps to protect against signal jumping accross different cables.
 
 ##### Permissions
-Permissions are access details that are given by users or network administrators to define the rights to certain files on a network. An example of this would be a customer having access to a certain customer’s information that would otherwise be blocked by employees. There are two diverse types of permissions for sharing resources.
+Permissions are what decides who is allowed to access what within a network or on a system. Permissions can come in tww differnt types.
 
-NTFS permissions are used for determining access to files and folders and are features commonly seen in Microsoft Windows. They allow for users to read, write, edit and/or delete files when given the opportunity. There are more flexible options than the shared permissions, meaning that users can be assigned specific functions, making it more organized and ensuring that higher level access isn’t given to a huge number of users.
+NTFS stands for New Technology File System, this is the standard file system used by windows machines. While a user can have freedom to do whatever they like with the file, permissions can be set up to stop certain users doing certain things. For example someone can set a file they own to read only, which allows other users to see what is in that file but they cannot edit its contents.
 
-Shared Permissions are permissions that are set for shared folders. These permissions determine the type of access that others can have to the folder across the network and apply to those who are joined within network, unlike NTFS permissions that aren’t other a network and only apply to certain users.
+Shared Permissions refers to permissions that are set up for multiple users. They are used to define rules that different groups of users on the network have to abide by when trying to access files stored on the network. Shared permissions cannot be edited on a per user basis, unlike NTFS.
 
 ##### Workstation
 Workstation computers are computers that have specialist components inside them that allow them to work on certain tasks a lot faster than other. normal computers could. The most common feature of workstations is they usually have an above average CPU that can be clocked way above normal user computer speeds. They also usually contain a large ammount of RAM, 128GB or more in some cases. This provides the workstation with the raw power needed to complete specialist tasks quickly.
