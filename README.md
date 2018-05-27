@@ -249,8 +249,8 @@ NTFS permissions are used for determining access to files and folders and are fe
 
 Shared Permissions are permissions that are set for shared folders. These permissions determine the type of access that others can have to the folder across the network and apply to those who are joined within network, unlike NTFS permissions that aren’t other a network and only apply to certain users.
 
-##### Local Workstation Architecture
-Workstation computers are specialized computers that can run tasks at a faster and more capable rate, as well as a networking workstation is a personal computer that is hooked up onto a local area network to share resources of one or more larger computers. These machines are connected to a LAN network. The reason for the workstation is good for CPU and RAM intensive programs is because of the fact of a faster processor and a considerable amount of RAM memory. Despite being a one user only, it can be remotely accessed by other users over the network. Different sorts of workstations have been designed to help with resources, such as a thin client, where the actions are performed on a server within the network.
+##### Workstation
+Workstation computers are computers that have specialist components inside them that allow them to work on certain tasks a lot faster than other. normal computers could. The most common feature of workstations is they usually have an above average CPU that can be clocked way above normal user computer speeds. They also usually contain a large ammount of RAM, 128GB or more in some cases. This provides the workstation with the raw power needed to complete specialist tasks quickly.
 
 ##### System Bus
 A system bus is a series of internal connections that connect all of the individual components of a computer and allow then to communicate with eachother. These connection are tiny but are essential in allowing all of the parts together. Otherwise, for example, the CPU would not be able to get instructions that have been loaded into the RAM.
