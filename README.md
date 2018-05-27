@@ -236,11 +236,11 @@ A network card is a device used to connect a computer to a netowrk. The card ope
 ##### Cabling
 Structured cabling is the idea of using cables in the most efficient way possible to connect computers together. The computers can communicate over this medium. Cables are only usually used if the physical distance between two machines that need to be connected is quite small. In comparison to wireless connection methods, physical connections have a massive advantage in that they can achieve much higher speeds than any current form of Wi-Fi. Different types of physical cables are:
 
-- Patch Cables are commonly ethernet cables used for linking a computer to a hub, switch or router, or even other devices to them. This type of cabling is used primarily for building home computer networks and those that need wired access when mobile, such as in hotels.
+- Patch Cables refers to a type of cable such as ethernet. these kinds of cables are used to connect home networks and business networks as their length can be limiting
 
-- Shielded Cables are ethernet cables but are composed of insulated conductors enclosed within a conductive layer, either being copper or aluminium.
+- Shielded Cables are the same as patch cables however they contain some sort of shielding that allows the signal to stay stong over a longer distance. It also protects against interference.
 
-- Twisted pair are copper wire used for connecting computers both home and business together. The copper wires are twisted around each other, so to prevent any crosstalk and electromagnetic induction between the wires.
+- Twisted pair cables are as the name suggests, two copper cables and intertwined within the same wire. This helps to protect against signal jumping accross different cables.
 
 ##### Permissions
 Permissions are access details that are given by users or network administrators to define the rights to certain files on a network. An example of this would be a customer having access to a certain customer’s information that would otherwise be blocked by employees. There are two diverse types of permissions for sharing resources.
@@ -253,11 +253,10 @@ Shared Permissions are permissions that are set for shared folders. These permis
 Workstation computers are specialized computers that can run tasks at a faster and more capable rate, as well as a networking workstation is a personal computer that is hooked up onto a local area network to share resources of one or more larger computers. These machines are connected to a LAN network. The reason for the workstation is good for CPU and RAM intensive programs is because of the fact of a faster processor and a considerable amount of RAM memory. Despite being a one user only, it can be remotely accessed by other users over the network. Different sorts of workstations have been designed to help with resources, such as a thin client, where the actions are performed on a server within the network.
 
 ##### System Bus
-A system bus is a pathway that is made up of cables and connections, used for carrying data between the main memory and the computer microprocessor, essentially providing a communication pathway for the data between the major components of the computer system. It works by connecting CPU with the main memory and the level 2 cache. The internal bus carries the data within the motherboard, but some other buses branch out to provide a communication channel between the CPU and other components. The lines or pins of a bus are as followed:
+A system bus is a series of internal connections that connect all of the individual components of a computer and allow then to communicate with eachother. These connection are tiny but are essential in allowing all of the parts together. Otherwise, for example, the CPU would not be able to get instructions that have been loaded into the RAM.
 
-Address – The components pass memory to each other over this bus.
-Control – This is used to send signals for coordinating and managing the activities of motherboard components.
-Data – This is transferred between peripherals, memory and the processor.
+Address – This bus is used to share the memory of the components.
+Control – This bus is used to make sure that all of the components are working together and on the right task.
 
 #### Design and Implement A Network
 
