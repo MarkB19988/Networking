@@ -170,16 +170,36 @@ A content filter is a simple concept. It uses a pre determines set of rules that
 ###### Load Balancer
 A load balancer is used to spread out the workload over the entire network, by doing this the load balancer is able to prevent certain pathways and connections on a network becoming to busy and effect the speed of the network.
 
--------
-
 ###### Modem
-A modem is a device used for transmission of data over a cable or telephone connection. The modem is so called because it modulates or demodulates analogue signal simultaneously to digital signal for a computer to recognize and vice versa for other devices.
+A modem is used to connect networks via existing telephone lines. While this can be convinient for reaching remote areas that may not have modern connections, It has a serious drawback of limited speeds.
 
 ###### Packet Shaper
-Packet shaping or traffic shaping, regulates the data transfer to maintain a level of performance and quality. It delays the flow of packets that is considered as less important for more prioritized traffic, hence to allow for maintained performance within the network.
+Packet shapers are used to prioritize certain data being sent over a network. It forces lower priority packets such as instant messages to wait to be sent while more important data like security information is s
 
 ###### VPN Concentrator
-A VPN concentrator is a network device that provides a secure connection and delivery of data between VPN nodes. It adds to the capabilities of a VPN, allowing for many people to access the VPN at the same time.
+A VPN concentrator is used to allow multiple users on the same network to use the same VPN, it does this by coordinating and organising the traffic on a network between different machines trying to access the VPN
+
+
+##### Server types
+
+###### Web
+A web server delivers the users content or services over the internet. Once a request is sent to the web server, it fetches the relevant HTML page sending it to the web browser. Any computer can be used as a web server via server software and the internet as well as the services it provides such as software and commercial packages.
+
+###### File
+A file server is a computer that is responsible for the storage and management of data files so that computers on the network can access said files. This server allows the users to share information over the network without resorting to transfer them physically.
+
+###### Database
+A database server is either a hardware or software server used to run a database, mainly providing services related to access and retrieving files from the stored database. The access to the server can either be “front end” or “back end”, where the former can be running locally on a user’s machine or the latter, where its running in the server itself. Once the information in the database is retrieved, it is displayed to the user who requested it.
+
+###### Combination
+A combination server is a server that combines the functions of a web, file and database server to make a server that can fulfil all the functions of those servers. This server provides all the services offered but as a singular server.
+
+###### Virtualisation
+A virtualized server is a server that was at once physical, but broken up into small virtual servers assisted by software. These servers provide web hosting, file or database services but is masked as individual servers so it cuts down on hardware from a physical server.
+
+###### Terminal Services
+A terminal server is a device or server that provides terminals, usually PCs but can be other devices, with a port to a Local or Wide Area Network. With a terminal server, client systems don’t have to connect using a modem or network interface.
+
 
 
 
