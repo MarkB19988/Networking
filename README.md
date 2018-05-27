@@ -227,7 +227,7 @@ A proxy server is a server that handles web requests for any users connected to 
 
 --------------------------
 
-#### Netowrk Device and Cabling
+#### Network Device and Cabling
 
 ##### Network 
 ###### Network Card
