@@ -237,6 +237,8 @@ The network I was asked to design had very specific requirements that had to be 
 ##### Concept Diagram
 Below is a concept design I made to visualise this network before I implemented it. By doing this I could collect feedback on the design before I started work on implementing it.
 
+![Imgur](https://i.imgur.com/aWGFoJu.jpg)
+
 
 
 
