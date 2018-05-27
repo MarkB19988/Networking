@@ -297,6 +297,8 @@ As you can see I followed the specification and created two LANs connected via t
 ##### Testing The Design
 Below is the test plan I followed. It includeds my expected results, my actual results and what actions were taken after that test (if any).
 
+![Imgur](https://i.imgur.com/E8zgCFB.png)
+
 ##### Evaluation 
 The network solution I created was successful in meeting the clients requirements and specifications exactly. During testing the network performed exactly as intended and expected with no errors or bugs being found. While implementing DNS did prove to be quite time consuming, once it was set up it worked exactly as it should and I found there to be no issues with pinging other users via their domain name. By taking all of this into consideration, I can say with certainty that i belive this project was a success and I was able to correctly design and implement the network solution. 
 
