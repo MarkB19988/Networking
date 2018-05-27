@@ -294,6 +294,17 @@ Below is a concept design I made to visualise this network before I implemented 
 
 As you can see I followed the specification and created two LANs connected via two routers, one on each LAN. It is clear from the look of the network that I follwed instructions and used the star topology to design my network solution. You can also see that all of the specified devices are present on the WAN. Both a printer and a wireless access point are connected to LAN (b). I designed the LANs to be connected up usinig basic copper cables as they are the cheapest cables availible and high transfer speeds are not needed on such a small network.
 
+##### User Feedback
+I asked my peers to comment on my design taking into consideration how well they thing my design meets the client specifications, this is what was said.
+
+###### Luke 
+"In my opinion the design meets the specification exactly, I don't think that you need to change anything. I think that you can go ahead and implement this solution."
+
+###### Sam
+"Yeah I would say that your design does meet the clients requirements, however have you thought about adding a printer and an access point to the other LAN? it may reduce netowrk congestion."
+
+Luke seemed confident that my design met the clients specification however Sam made a good reccomendation about adding another printer and wireless access point to LAN (b). While his comments are something that I agree with, it is something that I would want to go over with the client first as they specified 1 printer and 1 access point on the WAN.
+
 ##### Testing The Design
 Below is the test plan I followed. It includeds my expected results, my actual results and what actions were taken after that test (if any).
 
