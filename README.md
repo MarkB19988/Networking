@@ -207,7 +207,8 @@ A terminal is a device that provides other computers connected to the devices wi
 ##### Networking Software
 Network software defines what is needed to create and maintain a network, regardless of if it is a LAN or WAN. Below are some examples of what is needed in order to create a network.
 
-----
+---- 
+EDIT FROM HERE
 
 ###### Client Software
 A client is a piece of software that works within local and wide area networks. The term basically describes software that functions like an interface between a client’s computer and the server so it technically is located within the client’s PC. Basically, it can be anything that provides services, such as a word processor or a web browser, that makes use of services provided by the server and also provides an interface for the user to interact with these services.
