@@ -207,28 +207,25 @@ A terminal is a device that provides other computers connected to the devices wi
 ##### Networking Software
 Network software defines what is needed to create and maintain a network, regardless of if it is a LAN or WAN. Below are some examples of what is needed in order to create a network.
 
----- 
-EDIT FROM HERE
-
 ###### Client Software
-A client is a piece of software that works within local and wide area networks. The term basically describes software that functions like an interface between a client’s computer and the server so it technically is located within the client’s PC. Basically, it can be anything that provides services, such as a word processor or a web browser, that makes use of services provided by the server and also provides an interface for the user to interact with these services.
+A client is a general term for any piece of software on a clients machine that performs a task. For example Microsoft Excel is a piece of client software. The software provides the user with a means to input and edit data or to make requests on the network depeding on the type of software.
 
 ###### Server Software
-Server software is a piece of software designed for use in a server, providing power of a use of high end functions. It is used to interact with the infrastructure of the server to ensure maximum performance within the server. The type of usage may vary and the server may be used as a web, application, database, cloud or file server. The primary focus is clear however, which is to use computer resources and capacity.
+Server software is installed on servers to allow that server to perform a certain task. The type of software installed on a server dictates what purpose it will have. The different tasks that a sever can perform includes web hosting, file transfer and acting as a dedicated email server.
 
 ###### Client Operating System
-A client operating system is a computer that doesn’t require networks or external components to properly function and mainly works within the computer. It helps the user perform functions within the computer whenever used, such as browsing the internet. Operating systems must function with a distinct type of hardware. An example of a client operating system is Microsoft Windows, a common operating that comes within a desktop or laptop.
+A client operating system is software installed on a clients computer to enable it to operate on it own. It allowed the user to perform tasks such as web browsing on the machine it is installed on. Operating systems provide the clients computer with a detailed and extensive user interface to enable the user to use the computer as efficiently as possible.
 
 ###### Server Operating system
-A server operating system is an operating system designed for use on servers, built to serve the requests of client computers in a network. This server is opposite to that of a client operating system but also does function the same way, but the difference is that it enables server roles such as web, mail, file, database, application and print server. The Microsoft Windows Server line-up is a prime example of server operating software and has capabilities required within a client-server architecture.
+A server operating system is the same concept as a client operating system, the difference being that a server operating systems enables additional features to help the server perform its functions effectively. such as tools to help with web hosting and features that aid with handling requests so the server does not get overwhelmed.
 
 ###### Firewall
-A firewall is software that enforces a set of rules that affect the traffic flow from within a network. They are incorporated into a variety of network devices to filter the traffic coming in and out of a firewall, but the main benefit is the security aspect of firewalls as they can prevent any malicious packets of data to flow into the network, mainly a public network. Two types can be used; host-based, which can be installed onto a server and network-based, typically built into the cloud infrastructure.
+A firewall is a piece of software or hardware that determines what data can access a network by opening and closing different ports. a firewall is a key part in keeping networks secure, while the system itself cannot analyse incomming data and detect a threat, the rules it puts in place make it much harder for viruses to access the network as they are left with not a lot of ways in. This can help reduce the workload placed on dedicated anti-virus software
 
 ###### Proxies
-A proxy server is a software system that runs on a computer, acting as midway between an endpoint device and another server that the client requests a service from. The proxy exists in the same machine as a firewall server, so that the requests can be forwarded through the firewall. Once a proxy server receives a request for an internet resource, which can be a web page, it runs through a cache of past pages and returns it to the user once found, without having to forward the request to the internet.
+A proxy server is a server that handles web requests for any users connected to it. Normally, the user would make a request directly to the web server however when a proxy is set up, the user tells the proxy to make a request for it. The proxy then makes the request for the user. By doing this the proxy can check incoming data before it reaches the user, if it is deemed malicious or is banned on the netowork, the proxy can deny the request.
 
------
+--------------------------
 
 #### Design and Implement A Network
 
