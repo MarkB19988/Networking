@@ -232,7 +232,31 @@ A proxy server is a software system that runs on a computer, acting as midway be
 #### Design and Implement A Network
 
 ##### Network Specification and Design Brief
-The network I was asked to design had very specific requirements that had to be met. In terms of design the network had to consist of 2 LANs that were connected together with two routers. The individual LANs had to contain 3 computers, 1 server all connected to a swich that then connected to a router. Somewhere on this WAN there also had to be 1 printer and 1 wireless access point. As all of the devices on these LANs connected to a swich, the design followed the star topology.
+The network I was asked to design had very specific requirements that had to be met. In terms of design the network had to consist of 2 LANs that were connected together with two routers. The individual LANs had to contain 3 computers, 1 server all connected to a swich that then connected to a router. Somewhere on this WAN there also had to be 1 printer and 1 wireless access point. As all of the devices on these LANs connected to a swich, the design followed the star topology. Below are the IP configurations that were also specified by the client.
+
+###### LAN (a)
+Computer IP Addresses:
+- 192.168.1.100
+- 192.168.1.101
+- 192.168.1.102
+
+Server IP Address:
+- 192.168.1.10
+
+Router IP Address:
+- 192.168.1.1
+
+###### LAN (b)
+PC IP Addresses:
+- 192.168.10.100
+- 192.168.10.101
+- 192.168.10.102
+
+Server IP Address:
+- 192.168.10.10
+
+Router IP Address:
+- 192.168.10.1
 
 ##### Concept Diagram
 Below is a concept design I made to visualise this network before I implemented it. By doing this I could collect feedback on the design before I started work on implementing it.
