@@ -183,10 +183,10 @@ A VPN concentrator is used to allow multiple users on the same network to use th
 ##### Server types
 
 ###### Web
-A web server delivers the users content or services over the internet. Once a request is sent to the web server, it fetches the relevant HTML page sending it to the web browser. Any computer can be used as a web server via server software and the internet as well as the services it provides such as software and commercial packages.
+A web server stores and sends data on websites over the internet. A user will make a request to the web server for information on how to display the webpage and what information needs to be loaded. The server handles this request and sends a copy of the data to the user. Thousands of request can be handles by a web server at any given time.
 
 ###### File
-A file server is a computer that is responsible for the storage and management of data files so that computers on the network can access said files. This server allows the users to share information over the network without resorting to transfer them physically.
+A file server is used to store files and data for users on the network to access. The data stored on this server can range from public data that anyone on the network can have access to. Or private data that only a specific user is able to access.
 
 ###### Database
 A database server is either a hardware or software server used to run a database, mainly providing services related to access and retrieving files from the stored database. The access to the server can either be “front end” or “back end”, where the former can be running locally on a user’s machine or the latter, where its running in the server itself. Once the information in the database is retrieved, it is displayed to the user who requested it.
