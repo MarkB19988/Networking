@@ -202,6 +202,41 @@ A terminal is a device that provides other computers connected to the devices wi
 
 ---------------------------
 
+#### Workstation Hardware
+
+##### Networking Software
+Network software defines what is needed to create and maintain a network, regardless of if it is a LAN or WAN. Below are some examples of what is needed in order to create a network.
+
+----
+
+###### Client Software
+A client is a piece of software that works within local and wide area networks. The term basically describes software that functions like an interface between a client’s computer and the server so it technically is located within the client’s PC. Basically, it can be anything that provides services, such as a word processor or a web browser, that makes use of services provided by the server and also provides an interface for the user to interact with these services.
+
+###### Server Software
+Server software is a piece of software designed for use in a server, providing power of a use of high end functions. It is used to interact with the infrastructure of the server to ensure maximum performance within the server. The type of usage may vary and the server may be used as a web, application, database, cloud or file server. The primary focus is clear however, which is to use computer resources and capacity.
+
+###### Client Operating System
+A client operating system is a computer that doesn’t require networks or external components to properly function and mainly works within the computer. It helps the user perform functions within the computer whenever used, such as browsing the internet. Operating systems must function with a distinct type of hardware. An example of a client operating system is Microsoft Windows, a common operating that comes within a desktop or laptop.
+
+###### Server Operating system
+A server operating system is an operating system designed for use on servers, built to serve the requests of client computers in a network. This server is opposite to that of a client operating system but also does function the same way, but the difference is that it enables server roles such as web, mail, file, database, application and print server. The Microsoft Windows Server line-up is a prime example of server operating software and has capabilities required within a client-server architecture.
+
+###### Firewall
+A firewall is software that enforces a set of rules that affect the traffic flow from within a network. They are incorporated into a variety of network devices to filter the traffic coming in and out of a firewall, but the main benefit is the security aspect of firewalls as they can prevent any malicious packets of data to flow into the network, mainly a public network. Two types can be used; host-based, which can be installed onto a server and network-based, typically built into the cloud infrastructure.
+
+###### Proxies
+A proxy server is a software system that runs on a computer, acting as midway between an endpoint device and another server that the client requests a service from. The proxy exists in the same machine as a firewall server, so that the requests can be forwarded through the firewall. Once a proxy server receives a request for an internet resource, which can be a web page, it runs through a cache of past pages and returns it to the user once found, without having to forward the request to the internet.
+
+-----
+
+#### Design and Implement A Network
+
+##### Network Specification and Design Brief
+The network I was asked to design had very specific requirements that had to be met. In terms of design the network had to consist of 2 LANs that were connected together with two routers. The individual LANs had to contain 3 computers, 1 server all connected to a swich that then connected to a router. Somewhere on this WAN there also had to be 1 printer and 1 wireless access point. As all of the devices on these LANs connected to a swich, the design followed the star topology.
+
+##### Concept Diagram
+Below is a concept design I made to visualise this network before I implemented it. By doing this I could collect feedback on the design before I started work on implementing it.
+
 
 
 
