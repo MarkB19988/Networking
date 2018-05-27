@@ -297,6 +297,10 @@ As you can see I followed the specification and created two LANs connected via t
 ##### Testing The Design
 Below is the test plan I followed. It includeds my expected results, my actual results and what actions were taken after that test (if any).
 
+##### Evaluation 
+The network solution I created was successful in meeting the clients requirements and specifications exactly. During testing the network performed exactly as intended and expected with no errors or bugs being found. While implementing DNS did prove to be quite time consuming, once it was set up it worked exactly as it should and I found there to be no issues with pinging other users via their domain name. By taking all of this into consideration, I can say with certainty that i belive this project was a success and I was able to correctly design and implement the network solution. 
+
+While my network design follwed requirements exactly I feel like there are some minor improvemts to the design that could be made if I were to revisit this project and expand the scope. Firstly I would connect up the LANs using a different medium such as a fibre-optic connection. This would enable the network to run a lot faster and therefore have a higher capacity and room for expansion (for example connecting more LANs to the WAN). Secondly, If I could I would set up the network to use IPv6, this would be done to future proof the network as IPv4 is quickly becoming outdated, so if the client ever wanted to expand the WAN and connect it to the internet, IPv6 would allow for this regardless of the state of IPv4.
 
 
 
