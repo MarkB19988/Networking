@@ -227,6 +227,37 @@ A proxy server is a server that handles web requests for any users connected to 
 
 --------------------------
 
+#### Netowrk and Cabling Comparison
+
+##### Network Comparison
+A network card is a device used to connect a computer to a computer network, by exchanging the data with the network and using a suitable protocol to achieve connection. Wireless networks are networks that don’t rely on cables but rather radio waves and can connect via Wi-Fi hotspots to establish a connection. Mobile or a cellular network is network distributed through cells where each cell has a fixed transceiver or base station. From describing them, each network has unique features, mainly in how they need to work and it requirements.
+
+A network card would be the only one of the networks described that requires a wired input to connect, requiring at least a connection port, such as coaxial or ethernet port, so in contrast with the other networks there is no form of wireless output for connecting to a network. In terms of the wireless networks, both use a wireless form, but a minor difference is that radio waves are used within the wireless network whereas mobile requires a dedicated control channel for transmitting digital information. Continuing with the mobile comparison, but in comparison to all three, mobile phones can only use the mobile network, as mobiles manipulate the frequencies for good connection to the network.
+
+##### Cabling Used
+Structured cabling is a system of cabling and hardware that provides a comprehensive communications infrastructure. It is mainly an organized approach to a cable network, where most elements of the network are done within the hardware, rather than using multiple cables. Network cables are hardware used for connecting one device to another and for transmitting information and data between computers, routers, switches and storage are networks. Network cables are mostly different between each other, mainly having different ports or cabling types. The common types of cabling are:
+
+Patch Cables are commonly ethernet cables used for linking a computer to a hub, switch or router, or even other devices to them. This type of cabling is used primarily for building home computer networks and those that need wired access when mobile, such as in hotels.
+Shielded Cables are ethernet cables but are composed of insulated conductors enclosed within a conductive layer, either being copper or aluminium.
+Twisted pair are copper wire used for connecting computers both home and business together. The copper wires are twisted around each other, so to prevent any crosstalk and electromagnetic induction between the wires.
+
+##### Permissions
+Permissions are access details that are given by users or network administrators to define the rights to certain files on a network. An example of this would be a customer having access to a certain customer’s information that would otherwise be blocked by employees. There are two diverse types of permissions for sharing resources.
+
+NTFS permissions are used for determining access to files and folders and are features commonly seen in Microsoft Windows. They allow for users to read, write, edit and/or delete files when given the opportunity. There are more flexible options than the shared permissions, meaning that users can be assigned specific functions, making it more organized and ensuring that higher level access isn’t given to a huge number of users.
+
+Shared Permissions are permissions that are set for shared folders. These permissions determine the type of access that others can have to the folder across the network and apply to those who are joined within network, unlike NTFS permissions that aren’t other a network and only apply to certain users.
+
+##### Local Workstation Architecture
+Workstation computers are specialized computers that can run tasks at a faster and more capable rate, as well as a networking workstation is a personal computer that is hooked up onto a local area network to share resources of one or more larger computers. These machines are connected to a LAN network. The reason for the workstation is good for CPU and RAM intensive programs is because of the fact of a faster processor and a considerable amount of RAM memory. Despite being a one user only, it can be remotely accessed by other users over the network. Different sorts of workstations have been designed to help with resources, such as a thin client, where the actions are performed on a server within the network.
+
+##### System Bus
+A system bus is a pathway that is made up of cables and connections, used for carrying data between the main memory and the computer microprocessor, essentially providing a communication pathway for the data between the major components of the computer system. It works by connecting CPU with the main memory and the level 2 cache. The internal bus carries the data within the motherboard, but some other buses branch out to provide a communication channel between the CPU and other components. The lines or pins of a bus are as followed:
+
+Address – The components pass memory to each other over this bus.
+Control – This is used to send signals for coordinating and managing the activities of motherboard components.
+Data – This is transferred between peripherals, memory and the processor.
+
 #### Design and Implement A Network
 
 ##### Network Specification and Design Brief
@@ -260,6 +291,14 @@ Router IP Address:
 Below is a concept design I made to visualise this network before I implemented it. By doing this I could collect feedback on the design before I started work on implementing it.
 
 ![Imgur](https://i.imgur.com/tInbiFE.jpg)
+
+As you can see I followed the specification and created two LANs connected via two routers, one on each LAN. It is clear from the look of the network that I follwed instructions and used the star topology to design my network solution. You can also see that all of the specified devices are present on the WAN. Both a printer and a wireless access point are connected to LAN (b). I designed the LANs to be connected up usinig basic copper cables as they are the cheapest cables availible and high transfer speeds are not needed on such a small network.
+
+##### Testing The Design
+Below is the test plan I followed. It includeds my expected results, my actual results and what actions were taken after that test (if any).
+
+
+
 
 
 
