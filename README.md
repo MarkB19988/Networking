@@ -189,16 +189,18 @@ A web server stores and sends data on websites over the internet. A user will ma
 A file server is used to store files and data for users on the network to access. The data stored on this server can range from public data that anyone on the network can have access to. Or private data that only a specific user is able to access.
 
 ###### Database
-A database server is either a hardware or software server used to run a database, mainly providing services related to access and retrieving files from the stored database. The access to the server can either be “front end” or “back end”, where the former can be running locally on a user’s machine or the latter, where its running in the server itself. Once the information in the database is retrieved, it is displayed to the user who requested it.
+A database server is a type of server that stores data in certain catagories or fields. The data stored on these servers are related to one another so that requests can be made for other information pertaining to a certain subject. For example finding the price of an item at a supermarket, scanning the item will access the database and retrieve data related to that item.
 
 ###### Combination
-A combination server is a server that combines the functions of a web, file and database server to make a server that can fulfil all the functions of those servers. This server provides all the services offered but as a singular server.
+A combination server is a type of server that merges all three of the previous servers in to one, performing all of the above tasks on a single machine.
 
-###### Virtualisation
-A virtualized server is a server that was at once physical, but broken up into small virtual servers assisted by software. These servers provide web hosting, file or database services but is masked as individual servers so it cuts down on hardware from a physical server.
+###### Virtual
+A virtualized server is a server that, while can have the funcionality of a physical server, is nothing more that a small machine loaded with specialized software. This software helps the virtual server to perform the tasks needed by a server.
 
 ###### Terminal Services
-A terminal server is a device or server that provides terminals, usually PCs but can be other devices, with a port to a Local or Wide Area Network. With a terminal server, client systems don’t have to connect using a modem or network interface.
+A terminal is a device that provides other computers connected to the devices with a path to another LAN or WAN, the computers to not need to be connect to a router or switch to make the connection.
+
+---------------------------
 
 
 
