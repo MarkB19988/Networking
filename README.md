@@ -227,11 +227,11 @@ A proxy server is a server that handles web requests for any users connected to 
 
 --------------------------
 
-#### Netowrk and Cabling Comparison
+#### Netowrk Device and Cabling
 
-##### Network Comparison
-A network card is a device used to connect a computer to a computer network, by exchanging the data with the network and using a suitable protocol to achieve connection. Wireless networks are networks that don’t rely on cables but rather radio waves and can connect via Wi-Fi hotspots to establish a connection. Mobile or a cellular network is network distributed through cells where each cell has a fixed transceiver or base station. From describing them, each network has unique features, mainly in how they need to work and it requirements.
-
+##### Network 
+###### Network Card
+A network card is a device used to connect a computer to a netowrk. The card operates by sending data via a physical connection, the most common of which being an ethernet connection
 A network card would be the only one of the networks described that requires a wired input to connect, requiring at least a connection port, such as coaxial or ethernet port, so in contrast with the other networks there is no form of wireless output for connecting to a network. In terms of the wireless networks, both use a wireless form, but a minor difference is that radio waves are used within the wireless network whereas mobile requires a dedicated control channel for transmitting digital information. Continuing with the mobile comparison, but in comparison to all three, mobile phones can only use the mobile network, as mobiles manipulate the frequencies for good connection to the network.
 
 ##### Cabling Used
